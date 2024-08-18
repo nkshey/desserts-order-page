@@ -12,7 +12,7 @@ function Cart() {
   const totalQuantity = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
-    <section className="mt-8 w-full rounded-lg bg-rose-50 p-6 sm:mt-11 sm:p-8 lg:h-fit lg:min-w-[384px] lg:p-6">
+    <section className="mt-8 w-full rounded-lg bg-[white] p-6 sm:mt-11 sm:p-8 lg:h-fit lg:min-w-[384px] lg:p-6">
       <h3 className="mb-2 text-2xl font-bold text-red">
         Your Cart ({totalQuantity})
       </h3>

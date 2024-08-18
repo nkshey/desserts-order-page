@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  border: 0.15rem solid theme(colors.rose-100);
+  background: theme(colors.red);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b290b;
+}
+
+.order-modal::-webkit-scrollbar-track {
+  margin-block: 2.4rem;
+}

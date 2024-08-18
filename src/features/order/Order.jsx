@@ -14,7 +14,7 @@ function Order() {
     <section className="order-modal fixed bottom-0 max-h-[86dvh] w-full animate-slideInUp overflow-y-auto rounded-t-2xl bg-rose-50 px-6 pb-6 pt-10 lg:static lg:max-h-[700px] lg:w-[594px] lg:animate-zoomIn lg:rounded-2xl lg:p-10">
       <div className="mb-7">
         <img
-          src="../images/icon-order-confirmed.svg"
+          src="./images/icon-order-confirmed.svg"
           alt="confirmation icon"
           className="mb-7"
         />
